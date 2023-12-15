@@ -1,0 +1,68 @@
+/* FILEPATH: /Users/dakshgupta/dakshthemaker.github.io/index.css */
+
+/* Reset default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color */
+body {
+    background-color: #1f1f1f;
+}
+
+/* Add space around the div with id "hero" */
+#hero {
+    margin: 5%;
+    padding: 5%;
+    align-items: center;
+}
+
+#spacer {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Center the content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #e9e9e9;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #d9d9d9;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Style the paragraph */
+p,li {
+    font-size: 18px;
+    color: #c3c3c3;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 9px;
+}
+
+/* Style the link */
+a {
+    color: #60adff;
+    text-decoration: none;
+}
+
+/* Add hover effect to the link */
+a:hover {
+    color: #077fff;
+}
