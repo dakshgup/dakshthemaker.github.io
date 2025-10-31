@@ -1,0 +1,19 @@
+title: Daksh Gupta
+description: Personal website and blog
+baseurl: ""
+url: "https://dakshgupta.com"
+
+# Build settings
+markdown: kramdown
+permalink: /posts/:title/
+
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+

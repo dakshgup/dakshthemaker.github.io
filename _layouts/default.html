@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Daksh Gupta</title>
+    <link rel="stylesheet" href="{{ '/index.css' | relative_url }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="{{ '/writing.html' | relative_url }}">Writing</a>
+    </nav>
+    <div id="hero">
+        <header>
+            <h1><a href="{{ '/' | relative_url }}" style="color: #1f1f1f;">Daksh Gupta</a></h1>
+        </header>
+
+        {{ content }}
+
+        <footer>
+            <p>
+                <a href="https://twitter.com/dakshgup" target="_blank" rel="noopener">Twitter</a> &nbsp;|&nbsp;
+                <a href="https://github.com/dakshgup" target="_blank" rel="noopener">GitHub</a> &nbsp;|&nbsp;
+                <a href="https://open.spotify.com/album/3o3rLsmcjGTq0Qz6k9H3xr" target="_blank" rel="noopener">Spotify</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
+

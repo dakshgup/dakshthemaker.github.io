@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing - Daksh Gupta</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="hero">
+        <header>
+            <h1><a href="/" style="color: #1f1f1f;">Daksh Gupta</a></h1>
+        </header>
+
+        <section id="writing">
+            <h2>Writing</h2>
+            <ul id="blog-posts">
+                <!-- Blog posts will be listed here -->
+                <!-- Example structure:
+                <li>
+                    <a href="/posts/my-first-post.html">My First Post</a>
+                    <span class="date">January 15, 2025</span>
+                </li>
+                -->
+            </ul>
+
+        <div id="spacer"></div>
+        <footer>
+            <p>&copy; 2025 Daksh Gupta. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
